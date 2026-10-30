@@ -33,13 +33,13 @@ amount = 2000
 amount//=100
 print('updated amount for divide and assign:', amount)'''
 
-print('Basic calculator')
+'''print('Basic calculator')
 print('----------------')
 
 a=float(input('Enter the value of a:'))
 c=input('Enter the operation you want to perform (+, -, *, /, %, **, //):')
 b=float(input('Enter the value of b:'))
-print('The result of', a, c, b, 'is:', eval(str(a)+c+str(b)))
+print('The result of', a, c, b, 'is:', eval(str(a)+c+str(b)))'''
 
 '''print('/n Select the operation you want to perform')
 print('1. Addition(+)')
@@ -69,3 +69,15 @@ match choice:
         print('Floor Division of a and b is:', a//b)
     case _:
         print('Invalid choice')'''
+
+
+print("numerical operations")
+number=int(input("Enter a mark:"))
+
+if number<35 and number>0:
+    print("number is grade c")
+elif number>=35 and number<70:
+    print("number is grade b")
+else:
+    print("number is grade a")
+
