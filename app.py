@@ -381,3 +381,135 @@ else:
 TASK --> /= --> Divide and Assign' 
 TASK --> *= --> Multiply and Division   
 Basic Calculator (Arithmetic Operator)
+
+'''
+elif
+
+
+else
+ 
+Employee office Access System
+===============================
+ 
+Employee role, experience,
+
+
+Manager --> FUll Access
+Developer --> Development Access
+Intern --> Limited Access
+Other --> No access'''
+ 
+#elif
+ 
+'''
+Syntax
+=======
+if condition1:
+    STATEMENT
+elif condition2:
+    statement2
+elif condition3:
+    statement
+else:
+    statement
+ 
+'''
+role="Intern"
+ 
+if role=="Manager":
+    print("Full Access")
+elif role=="Developer":
+    print("Development Access")
+elif role=="Intern":
+    print('Limited Access')
+else:
+    print("No access")
+
+
+'''
+ 
+Role ?
+ 
+Manager ? --> No
+ 
+Developer ? --> Yes
+ 
+Development Access'''
+ 
+#and
+ 
+#Role --> Developer AND Access Card --> active
+ 
+#condition1 and condition2
+print('AND Operator')
+print('===========')
+role="Intern"
+card_active=True
+ 
+if role=="Manager" and card_active==True:
+    print('Access Granted')
+else:
+    print('Access Deny')
+ 
+'''
+role = developer --> no
+card active = True --> Yes
+ 
+condition 1 --> False, condition 2 --> True  '''
+ 
+#condition1 or condition2 (when atleast one condition must be true)
+print('OR Operator')
+print('===========')
+role="Team Lead"
+card_active=True
+ 
+if role=="Manager" or card_active==True:
+    print('Access Granted')
+else:
+    print('Access Deny')
+ 
+#not
+ 
+blocked=False
+ 
+#not condition
+print('NOT Operator')
+print('============')
+blocked=False
+if not blocked:
+    print('Employee Can Enter')
+else:
+    print('Employee Blocked')
+ 
+'''
+blocked=false --> not Fa;se --> True
+ 
+'''
+ 
+print('EMPLOYEE ACCESS SYSTEM')
+ 
+# name= input("Enter name :")
+role= input("Enter role :")
+card_active=True
+ 
+if  role== "manager" and card_active==False:
+    print("Full Access")
+elif role=="intern" and card_active==False:
+    print("Limited Access")
+elif role=="developer" and card_active==True:
+    print("Partial Access")
+else:
+    print("No access")
+
+
+
+print("numerical")
+number=35
+print('REF')
+a=10
+b=3
+'''
+if a>b && a>5:
+    print('True')
+else:
+    print('False')'''
